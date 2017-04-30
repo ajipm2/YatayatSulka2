@@ -1,12 +1,9 @@
 package com.yatayatsulka.retrofit;
 
-import com.yatayatsulka.CalculateRequestModel;
-import com.yatayatsulka.CalculateResponseModel;
 import com.yatayatsulka.FromResponseModel;
 import com.yatayatsulka.LocationResponseModel;
 
 import retrofit2.Call;
-import retrofit2.http.Body;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
@@ -25,9 +22,6 @@ public interface ApiService {
 
     @GET("placeAPI/readFromPlace")
     Call<FromResponseModel> getFromPlaces(@Query("") String query);
-
-    @POST("calculate/getDetails")
-    Call<CalculateResponseModel> calculateFare(@Body CalculateRequestModel requestModel);
 
 
 
