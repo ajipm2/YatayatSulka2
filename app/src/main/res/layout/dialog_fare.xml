@@ -7,10 +7,19 @@
     <TextView
         android:id="@+id/fare"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:paddingTop="50dp"
         android:text="fare"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:id="@+id/tv_student_fare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="50dp"
+        android:text="Student"
         android:textSize="30sp"
         />
 </LinearLayout>
