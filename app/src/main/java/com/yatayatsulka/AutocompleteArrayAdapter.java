@@ -30,7 +30,7 @@ public class AutocompleteArrayAdapter extends ArrayAdapter<String> {
 //		String address = getItem(position).toString();
 //		String output = address.substring(0, 1).toUpperCase().trim() + address.substring(1).toLowerCase().trim();
 //		output = toTitleCase(output);
-        suggestion.setText(data.get(position));
+        suggestion.setText(getItem(position));
 //		suggestion.setMaxHeight(position);
 
 

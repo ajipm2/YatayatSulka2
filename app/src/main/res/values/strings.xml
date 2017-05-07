@@ -1,11 +1,10 @@
 <resources>
     <string name="app_name" translatable="false">Yatayat Sulka</string>
     <string name="title_activity_maps">Map</string>
-    <string name="info">->The bus fare varies according to the distance travelled.</string>
-    <string name="info2">->The Student must have a student card for the student discount.</string>
-    <string name="info3">->The Student will also get discount in the school/college uniform.</string>
-    <string name="info4"> ->The Student card must be valid to get the student discount</string>
-
+    <string name="info">1.The bus fare varies according to the distance travelled.</string>
+    <string name="info2">2.The Student must have a student card for the student discount.</string>
+    <string name="info3">3.The Student will also get discount in the school/college uniform.</string>
+    <string name="info4">4.The Student card must be valid to get the student discount</string>
 
 
 </resources>

@@ -10,8 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.yatayatsulka.info"
     android:orientation="vertical"
-    android:background="@drawable/road2"
-    android:weightSum="1">
+    android:background="@drawable/road2">
 
     <ImageView
         android:layout_width="70dp"
@@ -24,6 +23,12 @@
         android:cropToPadding="true"
         android:layout_weight="0.00"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -37,7 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:id="@+id/info2"
-        android:text="@string/info"
+        android:text="@string/info2"
         android:textAlignment="center"/>
 
     <TextView
@@ -45,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:id="@+id/info3"
-        android:text="@string/info"
+        android:text="@string/info3"
         android:textAlignment="center"/>
 
     <TextView
@@ -53,6 +58,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:id="@+id/info4"
-        android:text="@string/info"
+        android:text="@string/info4"
         android:textAlignment="center"/>
+        </LinearLayout>
 </LinearLayout>
